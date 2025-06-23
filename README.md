@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# Warehouse Inventory Management 
-=======
+
 #  Warehouse & Inventory Management System
 
 A mobile-first warehouse and inventory management system that enables businesses to easily track product entries and exits, monitor real-time stock levels, scan barcodes, and send instant notifications.
