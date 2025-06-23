@@ -1,1 +1,1 @@
-"# Components Directory" 
+"# Components folder" 

@@ -1,1 +1,1 @@
-"# Screens Directory" 
+"# Screens folder" 
