@@ -1,42 +1,50 @@
+# Welcome to your Expo app 👋
 
-#  Warehouse & Inventory Management System
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-A mobile-first warehouse and inventory management system that enables businesses to easily track product entries and exits, monitor real-time stock levels, scan barcodes, and send instant notifications.
+## Get started
 
----
+1. Install dependencies
 
-## Technology Stack
+   ```bash
+   npm install
+   ```
 
-### Backend (Laravel)
-- PHP 8.4  
-- Laravel 10  
-- Laravel Passport for JWT Authentication  
-- WebSockets for real-time communication  
-- Telescope for debugging  
-- OneSignal Laravel SDK for notifications ([github.com/gaziantep-bilisim/onesignal_laravel](https://github.com/gaziantep-bilisim/onesignal_laravel))
+2. Start the app
 
-### Frontend (React Native)
-- React Native  
-- Redux or Zustand for state management  
-- NativeWind for styling  
-- React Native Paper or Gluestack UI  
-- Axios for API calls  
-- React Navigation  
-- React Hook Form  
-- OneSignal for push notifications
+   ```bash
+   npx expo start
+   ```
 
----
+In the output, you'll find options to open the app in a
 
-##  Features
+- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
+- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
+- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-- User authentication & role-based access control (Admin, Warehouse Staff)  
-- Product CRUD with categories and brand relations  
-- Barcode scanning via mobile camera for product search  
-- Stock entry and exit slips per warehouse  
-- Real-time stock updates and notifications via WebSockets and OneSignal  
-- Reporting with filters and export options (PDF/Excel)  
-- Multi-warehouse support and optional inter-warehouse transfer  
+You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
----
+## Get a fresh project
 
->>>>>>> 3bd708b65aef8e37b3c4cd4f0401f35cf61cae79
+When you're ready, run:
+
+```bash
+npm run reset-project
+```
+
+This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## Learn more
+
+To learn more about developing your project with Expo, look at the following resources:
+
+- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
+- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+
+## Join the community
+
+Join our community of developers creating universal apps.
+
+- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
+- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
