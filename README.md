@@ -88,22 +88,6 @@ MySQL
 
 XAMPP (development database)
 
-📁 Folder Structure
-
-/mobile
-│
-├── frontend/ # Application source code
-│ ├── screens/ # Screens (Login, AdminPanel, etc.)
-│ ├── components/ # Reusable UI components
-│ ├── services/ # Axios services & API logic
-│ ├── assets/ # Images, logos, icons
-│ ├── utils/ # Utility functions
-│ └── ...
-│
-├── App.js # Root of the app
-├── package.json # Project dependencies
-├── README.md # Project documentation
-
 📈 Project Progress
 
 The app was developed during a CO-OP internship program. The initial project structure and database schema (ERD) were designed in the first week. As development progressed:
